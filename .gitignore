@@ -1,2 +1,5 @@
 
 force.json
+.forceignore
+src/lwc/.eslintrc.json
+src/lwc/jsconfig.json
