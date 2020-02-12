@@ -1,0 +1,23 @@
+.pill-close{
+  float: right;
+  margin-right: 0.5%;
+}
+
+.pill-close:hover{
+  cursor: pointer;
+}
+
+.pill {
+  line-height: var(--lwc-lineHeightText,1.5);
+  max-width: 100%;
+  padding: var(--lwc-spacingXxxSmall,0.125rem);
+  border: var(--lwc-borderWidthThin,1px) solid var(--lwc-colorBorder,rgb(221, 219, 218));
+  border-radius: var(--lwc-borderRadiusMedium,0.25rem);
+  background-color: var(--lwc-colorBackgroundPill,rgb(255, 255, 255));
+  position: relative;
+  min-height: 1.625rem;
+}
+
+.pill:hover {
+  background-color: var(--brand-light-active, rgb(227, 229, 237));
+}
